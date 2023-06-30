@@ -41,7 +41,7 @@ You will see the message:
 "message": "xxx.iam.gserviceaccount.com does not have storage.objects.create access to the Google Cloud Storage object.
 
 
-# Refrence
+# Reference
 IAM storage related roles:
 https://cloud.google.com/storage/docs/access-control/iam-roles
 
