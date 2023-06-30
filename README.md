@@ -1,3 +1,4 @@
+# Main Steps：
 1. In Debian OS:
 ```
 sudo apt install git maven -y
@@ -39,11 +40,18 @@ You will see the message:
 "message": "xxx.iam.gserviceaccount.com does not have storage.objects.create access to the Google Cloud Storage object.
 
 
+# Refrence
+IAM storage related roles:
+https://cloud.google.com/storage/docs/access-control/iam-roles
 
-GCS upload and download via curl please refer to:
+Restrict a credential's Cloud Storage permissions：
+https://cloud.google.com/iam/docs/downscoping-short-lived-credentials
 
+upload GCS file via token+restful:
 https://cloud.google.com/storage/docs/uploading-objects
 
-https://cloud.google.com/storage/docs/downloading-objects
+download GCS file via token+restful:
+https://cloud.google.com/storage/docs/downloading-object
+
 
 
