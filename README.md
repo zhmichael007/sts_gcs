@@ -1,6 +1,6 @@
 1. In Debian OS:
 ```
-sodu apt install git maven -y
+sudo apt install git maven -y
 git clone https://github.com/zhmichael007/sts_gcs.git
 ```
 2. Create a Service Account, grant "Storage Object Admin" priviledge to it and dowanload a key file. 
