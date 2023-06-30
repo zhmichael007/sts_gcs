@@ -3,7 +3,7 @@
 sudo apt install git maven -y
 git clone https://github.com/zhmichael007/sts_gcs.git
 ```
-2. Create a Service Account, grant "Storage Object Admin" priviledge to it and dowanload a key file. 
+2. Create a Service Account, grant "Storage Object Admin" priviledge to it and dowanload a key file. Storage Object Admin ( roles/storage.objectAdmin ), Grants full control over objects, including listing, creating, viewing, and deleting objects.
 
 3. Rename the key file to "gcs_sa_key.json" and put it to the same folder as pom.xml 
 
