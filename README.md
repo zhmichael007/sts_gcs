@@ -1,4 +1,4 @@
-# access-boundary-access-token
+# Attention
 This sample code supports a maximum expiration time of 1 hour. If you need 12 hours extention, please refer to https://github.com/zhmichael007/access-boundary-access-token.git
 
 # Main Steps：
